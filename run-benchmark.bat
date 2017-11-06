@@ -20,7 +20,7 @@ call timecmd.bat java.exe test
 echo. & echo # Perl
 call timecmd.bat perl.exe test.pl
 
-echo. & echo # Node.js
+echo. & echo # Javascript (Node.js)
 call timecmd.bat node.exe test.js
 
 echo. & echo # Python

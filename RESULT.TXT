@@ -30,7 +30,7 @@ command took 0:0:0.66 (0.66s total)
 7051.57119764231
 command took 0:0:31.92 (31.92s total)
 
-# Node.js
+# Javascript (Node.js)
 7051.571197642306
 command took 0:0:2.72 (2.72s total)
 
