@@ -23,6 +23,10 @@ call timecmd.bat perl.exe test.pl
 echo. & echo # Node.js
 call timecmd.bat node.exe test.js
 
+echo. & echo # Python
+call timecmd.bat python.exe test.py
+
+
 pause
 
 
