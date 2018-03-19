@@ -6,7 +6,7 @@ How to run?
 
 BENCHMARK (FASTEST TIME)
 
-LUA vs LUAC vs LUAJIT vs C vs JAVA vs Perl vs Node.js vs Python
+LUA vs LUAC vs LUAJIT vs C vs JAVA vs Perl vs Javascript vs Python vs C#
 
 Result:
 
