@@ -31,3 +31,6 @@ call timecmd.bat python.exe test.py
 
 echo. & echo # C#
 call timecmd.bat test-c-sharp.exe
+
+echo. & echo # Ruby
+call timecmd.bat ruby.exe test.rb
