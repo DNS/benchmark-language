@@ -6,10 +6,7 @@ How to run?
 
 BENCHMARK (FASTEST TIME)
 
-LUA vs LUAC vs LUAJIT vs C vs JAVA vs Perl vs Javascript vs Python vs C# vs Ruby
-
-Result: C > C# > Java > LuaJIT > Lua > Ruby > Perl > Python 2 > Python 3
-Note: Python 2 (28.25s) is faster than Python 3 (37.56s).
+BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby
 
 
 Result:
