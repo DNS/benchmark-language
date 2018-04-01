@@ -8,49 +8,52 @@ BENCHMARK (FASTEST TIME)
 
 LUA vs LUAC vs LUAJIT vs C vs JAVA vs Perl vs Javascript vs Python vs C# vs Ruby
 
-
+Result: C > C# > Java > LuaJIT > Lua > Ruby > Perl > Python 2 > Python 3
 Note: Python 2 (28.25s) is faster than Python 3 (37.56s).
 
 
 Result:
 
-# LUA
+LUA 5.3.4
 7051.5711976423
 command took 0:0:7.33 (7.33s total)
 
-# LUAC
+LUAC 5.3.4
 7051.5711976423
 command took 0:0:6.97 (6.97s total)
 
-# LUAJIT
+LuaJIT 2.0.5
 7051.5711976423
 command took 0:0:0.68 (0.68s total)
 
-# C (MSVC)
+C (MSVC 18, VS 2013)
 7051.571198
-command took 0:0:0.56 (0.56s total)
+command took 0:0:0.57 (0.57s total)
 
-# JAVA
+C (GCC 7.2.0)
+7051.571198
+command took 0:0:0.67 (0.67s total)
+
+Java JRE 1.8.0_20
 7051.571197642306
-command took 0:0:0.66 (0.66s total)
+command took 0:0:0.65 (0.65s total)
 
-# Perl
+Perl 5.26.1
 7051.57119764231
-command took 0:0:27.49 (27.49s total)
+command took 0:0:26.89 (26.89s total)
 
-# Javascript (Node.js)
+Javascript (Node.js 4.4.6)
 7051.571197642306
-command took 0:0:2.72 (2.72s total)
+command took 0:0:2.49 (2.49s total)
 
-# Python
+Python 3.6.5
 7051.571197642306
-command took 0:0:37.56 (37.56s total)
+command took 0:0:36.26 (36.26s total)
 
-# C#
+C# (CSC 12)
 7051.57119764231
-command took 0:0:0.59 (0.59s total)
+command took 0:0:0.68 (0.68s total)
 
-# Ruby
+Ruby 2.5.1
 7051.571197642306
-command took 0:0:14.14 (14.14s total)
-
+command took 0:0:13.19 (13.19s total)
