@@ -17,6 +17,9 @@ call timecmd.bat test-msvc.exe
 echo. & echo C (GCC 7.2.0)
 call timecmd.bat test-gcc.exe
 
+echo. & echo C (LLVM 6.0.0)
+call timecmd.bat test-llvm.exe
+
 echo. & echo Java JRE 1.8.0_20
 call timecmd.bat java.exe test
 
