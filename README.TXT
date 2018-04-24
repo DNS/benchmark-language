@@ -35,6 +35,10 @@ C (LLVM 6.0.0)
 7051.571198
 command took 0:0:0.56 (0.56s total)
 
+C (Embarcadero C++ 6.60 for Win32)
+7051.571198
+command took 0:0:1.01 (1.01s total)
+
 Java JRE 1.8.0_20
 7051.571197642306
 command took 0:0:0.65 (0.65s total)

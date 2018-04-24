@@ -20,6 +20,9 @@ call timecmd.bat test-gcc.exe
 echo. & echo C (LLVM 6.0.0)
 call timecmd.bat test-llvm.exe
 
+echo. & echo C (Embarcadero C++ 6.60 for Win32)
+call timecmd.bat test-bcc32.exe
+
 echo. & echo Java JRE 1.8.0_20
 call timecmd.bat java.exe test
 
