@@ -13,23 +13,27 @@ Result:
 
 LUA 5.3.4
 7051.5711976423
-command took 0:0:7.33 (7.33s total)
+command took 0:0:6.90 (6.90s total)
 
 LUAC 5.3.4
 7051.5711976423
-command took 0:0:6.97 (6.97s total)
+command took 0:0:6.96 (6.96s total)
 
 LuaJIT 2.0.5
 7051.5711976423
-command took 0:0:0.68 (0.68s total)
+command took 0:0:0.67 (0.67s total)
 
 C (MSVC 18, VS 2013)
 7051.571198
-command took 0:0:0.57 (0.57s total)
+command took 0:0:0.56 (0.56s total)
 
 C (GCC 7.2.0)
 7051.571198
-command took 0:0:0.67 (0.67s total)
+command took 0:0:0.56 (0.56s total)
+
+C (LLVM 6.0.0)
+7051.571198
+command took 0:0:0.56 (0.56s total)
 
 Java JRE 1.8.0_20
 7051.571197642306
@@ -53,4 +57,4 @@ command took 0:0:0.68 (0.68s total)
 
 Ruby 2.5.1
 7051.571197642306
-command took 0:0:13.19 (13.19s total)
+command took 0:0:12.97 (12.97s total)
