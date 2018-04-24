@@ -29,7 +29,7 @@ command took 0:0:0.56 (0.56s total)
 
 C (GCC 7.2.0)
 7051.571198
-command took 0:0:0.56 (0.56s total)
+command took 0:0:0.67 (0.67s total)
 
 C (LLVM 6.0.0)
 7051.571198
