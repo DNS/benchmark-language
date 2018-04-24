@@ -13,11 +13,11 @@ Result:
 
 LUA 5.3.4
 7051.5711976423
-command took 0:0:6.90 (6.90s total)
+command took 0:0:6.87 (6.87s total)
 
 LUAC 5.3.4
 7051.5711976423
-command took 0:0:6.96 (6.96s total)
+command took 0:0:6.84 (6.84s total)
 
 LuaJIT 2.0.5
 7051.5711976423
@@ -51,9 +51,13 @@ Python 3.6.5
 7051.571197642306
 command took 0:0:36.26 (36.26s total)
 
-C# (CSC 12)
+C# .NET CLR (CSC 12)
 7051.57119764231
-command took 0:0:0.68 (0.68s total)
+command took 0:0:0.67 (0.67s total)
+
+C# Mono (CSC 12)
+7051.57119764231
+command took 0:0:0.98 (0.98s total)
 
 Ruby 2.5.1
 7051.571197642306

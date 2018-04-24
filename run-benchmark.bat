@@ -35,8 +35,11 @@ call timecmd.bat node.exe test.js
 echo. & echo Python 3.6.5
 call timecmd.bat python.exe test.py
 
-echo. & echo C# (CSC 12)
+echo. & echo C# .NET CLR (CSC 12)
 call timecmd.bat test-c-sharp.exe
+
+echo. & echo C# Mono (CSC 12)
+call timecmd.bat mono.exe test-c-sharp.exe
 
 echo. & echo Ruby 2.5.1
 call timecmd.bat ruby.exe test.rb
