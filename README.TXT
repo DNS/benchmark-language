@@ -66,3 +66,7 @@ command took 0:0:0.98 (0.98s total)
 Ruby 2.5.1
 7051.571197642306
 command took 0:0:12.97 (12.97s total)
+
+R 3.5.1
+[1] 7051.571
+command took 0:0:15.71 (15.56s total)

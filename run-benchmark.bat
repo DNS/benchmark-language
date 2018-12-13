@@ -46,3 +46,6 @@ call timecmd.bat mono.exe test-c-sharp.exe
 
 echo. & echo Ruby 2.5.1
 call timecmd.bat ruby.exe test.rb
+
+echo. & echo R 3.5.1
+call timecmd.bat Rscript.exe test.r
