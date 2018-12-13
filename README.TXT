@@ -51,9 +51,9 @@ Javascript (Node.js 4.4.6)
 7051.571197642306
 command took 0:0:2.49 (2.49s total)
 
-Python 3.6.5
+Python 3.7.1
 7051.571197642306
-command took 0:0:36.26 (36.26s total)
+command took 0:0:40.17 (40.17s total)
 
 C# .NET CLR (CSC 12)
 7051.57119764231
