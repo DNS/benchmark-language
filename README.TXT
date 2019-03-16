@@ -59,9 +59,13 @@ C# .NET CLR (CSC 12)
 7051.57119764231
 command took 0:0:0.67 (0.67s total)
 
-C# Mono (CSC 12)
+C# Mono 5.18.0
 7051.57119764231
-command took 0:0:0.98 (0.98s total)
+command took 0:0:1.06 (1.06s total)
+
+C# Mono 5.18.0 (Interpreter)
+7051.57119764231
+command took 0:0:26.38 (26.38s total)
 
 Ruby 2.5.1
 7051.571197642306

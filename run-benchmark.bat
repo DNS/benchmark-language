@@ -41,11 +41,11 @@ call timecmd.bat python.exe test.py
 echo. & echo C# .NET CLR (CSC 12)
 call timecmd.bat test-c-sharp.exe
 
-echo. & echo C# Mono (CSC 12)
+echo. & echo C# Mono 5.18.0
 call timecmd.bat mono.exe test-c-sharp-mono.exe
 
-echo. & echo C# Mono Interpreter (CSC 12)
-call timecmd.bat mono.exe --interpreter test-c-sharp.exe
+echo. & echo C# Mono 5.18.0 (Interpreter)
+call timecmd.bat mono.exe --interpreter test-c-sharp-mono.exe
 
 echo. & echo Ruby 2.5.1
 call timecmd.bat ruby.exe test.rb
