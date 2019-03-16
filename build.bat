@@ -10,6 +10,8 @@ bcc32.exe -O2 -o test-bcc32.exe test.c
 
 csc.exe /OUT:test-c-sharp.exe test.cs
 
+mcs.bat /OUT:test-c-sharp-mono.exe test.cs
+
 luac.exe -o test.luac test.lua
 
 javac.exe test.java

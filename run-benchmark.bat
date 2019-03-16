@@ -42,7 +42,7 @@ echo. & echo C# .NET CLR (CSC 12)
 call timecmd.bat test-c-sharp.exe
 
 echo. & echo C# Mono (CSC 12)
-call timecmd.bat mono.exe test-c-sharp.exe
+call timecmd.bat mono.exe test-c-sharp-mono.exe
 
 echo. & echo Ruby 2.5.1
 call timecmd.bat ruby.exe test.rb
