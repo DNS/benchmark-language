@@ -17,7 +17,7 @@ call timecmd.bat test-msvc.exe
 echo. & echo C (GCC 7.2.0)
 call timecmd.bat test-gcc.exe
 
-echo. & echo C (LLVM 6.0.0)
+echo. & echo C (CLANG LLVM 6.0.0)
 call timecmd.bat test-llvm.exe
 
 echo. & echo C (CYGWIN GCC 10.2.0)
