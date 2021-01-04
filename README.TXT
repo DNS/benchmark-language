@@ -6,7 +6,7 @@ How to run?
 
 BENCHMARK (FASTEST TIME)
 
-BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby
+BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby vs R
 
 
 Result:
@@ -34,6 +34,22 @@ command took 0:0:0.67 (0.67s total)
 C (LLVM 6.0.0)
 7051.571198
 command took 0:0:0.56 (0.56s total)
+
+C (CYGWIN GCC 10.2.0)
+7051.571198
+command took 0:0:0.68 (0.68s total)
+
+C (CYGWIN CLANG 8.0.1)
+7051.571198
+command took 0:0:0.59 (0.59s total)
+
+C (MINGW GCC 10.2.0)
+7051.571198
+command took 0:0:0.67 (0.67s total)
+
+C (MINGW CLANG 8.0.1)
+7051.571198
+command took 0:0:0.58 (0.58s total)
 
 C (Embarcadero C++ 6.60 for Win32)
 7051.571198

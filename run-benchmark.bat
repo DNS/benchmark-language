@@ -20,6 +20,18 @@ call timecmd.bat test-gcc.exe
 echo. & echo C (LLVM 6.0.0)
 call timecmd.bat test-llvm.exe
 
+echo. & echo C (CYGWIN GCC 10.2.0)
+call timecmd.bat test-cygwin-gcc.exe
+
+echo. & echo C (CYGWIN CLANG 8.0.1)
+call timecmd.bat test-cygwin-clang.exe
+
+echo. & echo C (MINGW GCC 10.2.0)
+call timecmd.bat test-mingw-gcc.exe
+
+echo. & echo C (MINGW CLANG 8.0.1)
+call timecmd.bat test-mingw-clang.exe
+
 echo. & echo C (Embarcadero C++ 6.60 for Win32)
 call timecmd.bat test-bcc32.exe
 
