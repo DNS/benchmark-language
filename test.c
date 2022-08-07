@@ -7,7 +7,7 @@
 #define _CRT_NONSTDC_NO_DEPRECATE
 #define _CRT_SECURE_NO_WARNINGS
 
-#include <windows.h>
+//#include <windows.h>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>

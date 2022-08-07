@@ -9,7 +9,7 @@ BENCHMARK (FASTEST TIME)
 BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby vs R
 
 
-Result:
+Result (benchmark test run on AMD Phenom II 1090T 3.2 GHz CPU):
 
 LUA 5.3.4
 7051.5711976423
@@ -67,21 +67,25 @@ Javascript (Node.js 4.4.6)
 7051.571197642306
 command took 0:0:2.49 (2.49s total)
 
-Python 3.7.1
+Python 3.9.6
 7051.571197642306
-command took 0:0:40.17 (40.17s total)
+command took 0:0:33.22 (33.22s total)
 
-C# .NET CLR (CSC 12)
+C# .NET Framework 4 (CSC 12)
 7051.57119764231
 command took 0:0:0.67 (0.67s total)
 
-C# Mono 5.18.0
+C# .NET Core 3.1
 7051.57119764231
-command took 0:0:1.06 (1.06s total)
+command took 0:0:0.91 (0.91s total)
 
-C# Mono 5.18.0 (Interpreter)
+C# Mono 6.12.0
 7051.57119764231
-command took 0:0:26.38 (26.38s total)
+command took 0:0:0.91 (0.91s total)
+
+C# Mono 6.12.0 (Interpreter)
+7051.57119764231
+command took 0:0:6.09 (6.09s total)
 
 Ruby 2.5.1
 7051.571197642306

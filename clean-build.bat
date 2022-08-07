@@ -1,10 +1,5 @@
-del /F test.obj
-del /F test-msvc.exe
-del /F test-gcc.exe
-del /F test-llvm.exe
-del /F test-bcc32.exe
-del /F test-bcc32.tds
-del /F test-c-sharp.exe
-del /F test-c-sharp-mono.exe
-del /F test.class
-del /F test.luac
+del /F *.obj
+del /F *.exe
+del /F *.tds
+del /F *.class
+del /F *.luac

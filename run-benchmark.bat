@@ -47,16 +47,16 @@ REM call timecmd.bat perl6.bat test.p6
 echo. & echo Javascript (Node.js 4.4.6)
 call timecmd.bat node.exe test.js
 
-echo. & echo Python 3.6.5
+echo. & echo Python 3.9.6
 call timecmd.bat python.exe test.py
 
-echo. & echo C# .NET CLR (CSC 12)
+echo. & echo C# .NET
 call timecmd.bat test-c-sharp.exe
 
-echo. & echo C# Mono 5.18.0
+echo. & echo C# Mono 6.12.0
 call timecmd.bat mono.exe test-c-sharp-mono.exe
 
-echo. & echo C# Mono 5.18.0 (Interpreter)
+echo. & echo C# Mono 6.12.0 (Interpreter)
 call timecmd.bat mono.exe --interpreter test-c-sharp-mono.exe
 
 echo. & echo Ruby 2.5.1
@@ -64,3 +64,8 @@ call timecmd.bat ruby.exe test.rb
 
 echo. & echo R 3.5.1
 call timecmd.bat Rscript.exe test.r
+
+echo. & echo PowerShell 5.1
+call timecmd.bat powershell .\test.ps1
+
+
