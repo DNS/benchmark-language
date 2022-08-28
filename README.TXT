@@ -6,58 +6,58 @@ How to run?
 
 BENCHMARK (FASTEST TIME)
 
-BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby vs R
+BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby vs R vs PowerShell
 
 
-Result (benchmark test run on AMD Phenom II 1090T 3.2 GHz CPU):
+Result (benchmark tested on AMD FX-8300 Eight-Core Processor, 3.3 GHz):
 
-LUA 5.3.4
+Lua 5.4.2
 7051.5711976423
-command took 0:0:6.87 (6.87s total)
+command took 0:0:3.26 (3.26s total)
 
-LUAC 5.3.4
+LUAC 5.4.2
 7051.5711976423
-command took 0:0:6.84 (6.84s total)
+command took 0:0:3.27 (3.27s total)
 
 LuaJIT 2.0.5
 7051.5711976423
-command took 0:0:0.67 (0.67s total)
+command took 0:0:0.74 (0.74s total)
 
 C (MSVC 18, VS 2013)
 7051.571198
-command took 0:0:0.56 (0.56s total)
+command took 0:0:0.69 (0.69s total)
 
 C (GCC 7.2.0)
 7051.571198
-command took 0:0:0.67 (0.67s total)
+command took 0:0:0.70 (0.70s total)
 
 C (CLANG LLVM 6.0.0)
 7051.571198
-command took 0:0:0.56 (0.56s total)
+command took 0:0:0.69 (0.69s total)
 
 C (CYGWIN GCC 10.2.0)
 7051.571198
-command took 0:0:0.68 (0.68s total)
+command took 0:0:0.71 (0.71s total)
 
 C (CYGWIN CLANG 8.0.1)
 7051.571198
-command took 0:0:0.59 (0.59s total)
+command took 0:0:0.72 (0.72s total)
 
 C (MINGW GCC 10.2.0)
 7051.571198
-command took 0:0:0.67 (0.67s total)
+command took 0:0:0.70 (0.70s total)
 
 C (MINGW CLANG 8.0.1)
 7051.571198
-command took 0:0:0.58 (0.58s total)
+command took 0:0:0.69 (0.69s total)
 
 C (Embarcadero C++ 6.60 for Win32)
 7051.571198
-command took 0:0:1.01 (1.01s total)
+command took 0:0:1.45 (1.45s total)
 
-Java JRE 1.8.0_20
+Java JRE Microsoft-28056 (build 17.0.1+12-LTS)
 7051.571197642306
-command took 0:0:0.65 (0.65s total)
+command took 0:0:0.79 (0.79s total)
 
 Perl 5.26.1
 7051.57119764231
@@ -67,13 +67,13 @@ Javascript (Node.js 4.4.6)
 7051.571197642306
 command took 0:0:2.49 (2.49s total)
 
-Python 3.9.6
+Python 3.10.1
 7051.571197642306
-command took 0:0:33.22 (33.22s total)
+command took 0:0:31.88 (31.88s total)
 
 C# .NET Framework 4 (CSC 12)
 7051.57119764231
-command took 0:0:0.67 (0.67s total)
+command took 0:0:0.72 (0.72s total)
 
 C# .NET Core 3.1
 7051.57119764231
@@ -94,3 +94,7 @@ command took 0:0:12.97 (12.97s total)
 R 3.5.1
 [1] 7051.571
 command took 0:0:15.71 (15.56s total)
+
+PowerShell 5.1
+7051.57119764231
+command took 0:0:34.24 (34.24s total)

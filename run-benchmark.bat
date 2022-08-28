@@ -2,10 +2,10 @@
 @echo off
 
 
-echo. & echo LUA 5.3.4
+echo. & echo LUA 5.4.2
 call timecmd.bat lua.exe test.lua
 
-echo. & echo LUAC 5.3.4
+echo. & echo LUAC 5.4.2
 call timecmd.bat lua.exe test.luac
 
 echo. & echo LuaJIT 2.0.5
@@ -47,7 +47,7 @@ REM call timecmd.bat perl6.bat test.p6
 echo. & echo Javascript (Node.js 4.4.6)
 call timecmd.bat node.exe test.js
 
-echo. & echo Python 3.9.6
+echo. & echo Python 3.10.1
 call timecmd.bat python.exe test.py
 
 echo. & echo C# .NET
