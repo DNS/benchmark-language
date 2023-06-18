@@ -50,6 +50,9 @@ call timecmd.bat node.exe test.js
 echo. & echo Python 3.10.1
 call timecmd.bat python.exe test.py
 
+echo. & echo Numba (Python 3.11.3)
+call timecmd.bat python.exe test-numba.py
+
 echo. & echo C# .NET
 call timecmd.bat test-c-sharp.exe
 
@@ -66,6 +69,9 @@ echo. & echo R 3.5.1
 call timecmd.bat Rscript.exe test.r
 
 echo. & echo PowerShell 5.1
-call timecmd.bat powershell .\test.ps1
+call timecmd.bat powershell.exe .\test.ps1
+
+echo. & echo PowerShell 7.3.4
+call timecmd.bat pwsh.exe .\test.ps1
 
 

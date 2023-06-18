@@ -71,6 +71,10 @@ Python 3.10.1
 7051.571197642306
 command took 0:0:31.88 (31.88s total)
 
+Numba (Python 3.11.3)
+7051.571197642306
+command took 0:0:2.17 (2.17s total)
+
 C# .NET Framework 4 (CSC 12)
 7051.57119764231
 command took 0:0:0.72 (0.72s total)
@@ -95,6 +99,11 @@ R 3.5.1
 [1] 7051.571
 command took 0:0:15.71 (15.56s total)
 
-PowerShell 5.1
+PowerShell 5.1.19041.2673
 7051.57119764231
-command took 0:0:34.24 (34.24s total)
+command took 0:0:56.65 (56.65s total)
+
+PowerShell 7.3.4
+7051.571197642306
+command took 0:3:36.09 (216.09s total)
+
