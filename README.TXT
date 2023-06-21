@@ -9,7 +9,8 @@ BENCHMARK (FASTEST TIME)
 BENCHMARK: Lua vs vs LuaJIT vs C vs Java vs Perl vs Javascript vs Python vs C# vs Ruby vs R vs PowerShell
 
 
-Result (benchmark tested on AMD FX-8300 Eight-Core Processor, 3.3 GHz):
+Result (benchmark tested on AMD FX-8300, 3.3 GHz):
+
 
 Lua 5.4.2
 7051.5711976423
