@@ -45,7 +45,10 @@ REM echo. & echo Perl 6 (MoarVM 2018.01)
 REM call timecmd.bat perl6.bat test.p6
 
 echo. & echo Javascript (Node.js 4.4.6)
-call timecmd.bat node.exe test.js
+call timecmd.bat node.exe test-node.js
+
+echo. & echo Javascript (MS JScript)
+call timecmd.bat cscript.exe test-jscript.js
 
 echo. & echo Python 3.10.1
 call timecmd.bat python.exe test.py

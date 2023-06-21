@@ -67,6 +67,10 @@ Javascript (Node.js 4.4.6)
 7051.571197642306
 command took 0:0:2.49 (2.49s total)
 
+Javascript (MS JScript)
+7051.57119764231
+command took 0:0:57.95 (57.95s total)
+
 Python 3.10.1
 7051.571197642306
 command took 0:0:31.88 (31.88s total)
