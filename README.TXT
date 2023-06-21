@@ -21,7 +21,7 @@ command took 0:0:3.27 (3.27s total)
 
 LuaJIT 2.0.5
 7051.5711976423
-command took 0:0:3.21 (3.21s total)
+command took 0:0:0.68 (0.68s total)
 
 C (MSVC 18, VS 2013)
 7051.571198
