@@ -38,19 +38,19 @@ call timecmd.bat test-bcc32.exe
 echo. & echo Java JRE 1.8.0_20
 call timecmd.bat java.exe test
 
-echo. & echo Perl 5.26.1
+echo. & echo Perl 5.26.1	-> NEED RUNNING BENCHMARK
 call timecmd.bat perl.exe test.pl
 
 REM echo. & echo Perl 6 (MoarVM 2018.01)
 REM call timecmd.bat perl6.bat test.p6
 
-echo. & echo Javascript (Node.js 4.4.6)
+echo. & echo Javascript (Node.js 18.16.0)
 call timecmd.bat node.exe test-node.js
 
 echo. & echo Javascript (MS JScript)
 call timecmd.bat cscript.exe test-jscript.js
 
-echo. & echo Python 3.10.1
+echo. & echo Python 3.11.3
 call timecmd.bat python.exe test.py
 
 echo. & echo Numba (Python 3.11.3)
@@ -59,16 +59,16 @@ call timecmd.bat python.exe test-numba.py
 echo. & echo C# .NET
 call timecmd.bat test-c-sharp.exe
 
-echo. & echo C# Mono 6.12.0
+echo. & echo C# Mono 6.12.0	-> NEED RUNNING BENCHMARK
 call timecmd.bat mono.exe test-c-sharp-mono.exe
 
-echo. & echo C# Mono 6.12.0 (Interpreter)
+echo. & echo C# Mono 6.12.0 (Interpreter)	-> NEED RUNNING BENCHMARK
 call timecmd.bat mono.exe --interpreter test-c-sharp-mono.exe
 
-echo. & echo Ruby 2.5.1
+echo. & echo Ruby 2.5.1	-> NEED RUNNING BENCHMARK
 call timecmd.bat ruby.exe test.rb
 
-echo. & echo R 3.5.1
+echo. & echo R 3.5.1	-> NEED RUNNING BENCHMARK
 call timecmd.bat Rscript.exe test.r
 
 echo. & echo PowerShell 5.1

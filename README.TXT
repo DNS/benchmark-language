@@ -13,7 +13,7 @@ Result (benchmark tested on AMD FX-8300 Eight-Core Processor, 3.3 GHz):
 
 Lua 5.4.2
 7051.5711976423
-command took 0:0:3.26 (3.26s total)
+command took 0:0:3.69 (3.69s total)
 
 LUAC 5.4.2
 7051.5711976423
@@ -21,59 +21,59 @@ command took 0:0:3.27 (3.27s total)
 
 LuaJIT 2.0.5
 7051.5711976423
-command took 0:0:0.74 (0.74s total)
+command took 0:0:3.21 (3.21s total)
 
 C (MSVC 18, VS 2013)
 7051.571198
-command took 0:0:0.69 (0.69s total)
+command took 0:0:0.68 (0.68s total)
 
 C (GCC 7.2.0)
 7051.571198
-command took 0:0:0.70 (0.70s total)
+command took 0:0:0.69 (0.69s total)
 
 C (CLANG LLVM 6.0.0)
 7051.571198
-command took 0:0:0.69 (0.69s total)
+command took 0:0:0.68 (0.68s total)
 
 C (CYGWIN GCC 10.2.0)
 7051.571198
-command took 0:0:0.71 (0.71s total)
+command took 0:0:0.70 (0.70s total)
 
 C (CYGWIN CLANG 8.0.1)
 7051.571198
-command took 0:0:0.72 (0.72s total)
+command took 0:0:0.70 (0.70s total)
 
 C (MINGW GCC 10.2.0)
 7051.571198
-command took 0:0:0.70 (0.70s total)
+command took 0:0:0.68 (0.68s total)
 
 C (MINGW CLANG 8.0.1)
 7051.571198
-command took 0:0:0.69 (0.69s total)
+command took 0:0:0.68 (0.68s total)
 
 C (Embarcadero C++ 6.60 for Win32)
 7051.571198
-command took 0:0:1.45 (1.45s total)
+command took 0:0:1.41 (1.41s total)
 
-Java JRE Microsoft-28056 (build 17.0.1+12-LTS)
+Java JRE Microsoft (build 17.0.6+10-LTS)
 7051.571197642306
-command took 0:0:0.79 (0.79s total)
+command took 0:0:0.78 (0.78s total)
 
 Perl 5.26.1
 7051.57119764231
 command took 0:0:26.89 (26.89s total)
 
-Javascript (Node.js 4.4.6)
+Javascript (Node.js 18.16.0)
 7051.571197642306
-command took 0:0:2.49 (2.49s total)
+command took 0:0:3.49 (3.49s total)
 
 Javascript (MS JScript)
 7051.57119764231
 command took 0:0:57.95 (57.95s total)
 
-Python 3.10.1
+Python 3.11.3
 7051.571197642306
-command took 0:0:31.88 (31.88s total)
+command took 0:0:33.87 (33.87s total)
 
 Numba (Python 3.11.3)
 7051.571197642306
@@ -81,7 +81,7 @@ command took 0:0:2.17 (2.17s total)
 
 C# .NET Framework 4 (CSC 12)
 7051.57119764231
-command took 0:0:0.72 (0.72s total)
+command took 0:0:0.71 (0.71s total)
 
 C# .NET Core 3.1
 7051.57119764231
