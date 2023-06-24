@@ -47,8 +47,8 @@ REM call timecmd.bat perl6.bat test.p6
 echo. & echo Javascript (Node.js 18.16.0)
 call timecmd.bat node.exe test-node.js
 
-echo. & echo Javascript (MS JScript)
-call timecmd.bat cscript.exe test-jscript.js
+echo. & echo Javascript (MS JScript Chakra)
+call timecmd.bat cscript.exe test-jscript-chakra.js
 
 echo. & echo Python 3.11.3
 call timecmd.bat python.exe test.py
