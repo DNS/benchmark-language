@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8" />
+<title>Benchmark</title>
+
+<style media="screen" type="text/css">
+
+body {
+	font-family: monospace;
+}
+
+</style>
+
+
+
+
+<script type="text/javascript">
+	
+window.onload = function () {
+	const t0 = performance.now();
+	
+	x = 1
+	
+	for (i=0; i<99999999; i++) {
+		x = (i+i+2*i+1-0.379)/(x);
+	}
+	
+	//console.log(x);
+	const t1 = performance.now();
+	//console.log(`command took ${(t1 - t0)/1000}s.`);
+	var elapsed = (t1 - t0)/1000
+	document.getElementById('result1').innerHTML = 'command took ' + elapsed + 's';
+}
+</script>
+
+
+
+
+</head>
+
+
+<body>
+
+<h1>
+	<div id="result1">Calculating ...</div>
+</h1>
+
+</body>
+</html>
