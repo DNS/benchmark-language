@@ -108,3 +108,8 @@ PowerShell 7.3.4
 7051.571197642306
 command took 0:3:36.09 (216.09s total)
 
+PHP 8.2.7
+7051.5711976423
+command took 0:0:9.17 (9.17s total)
+
+
