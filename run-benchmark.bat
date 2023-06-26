@@ -78,5 +78,5 @@ echo. & echo PowerShell 7.3.4
 call timecmd.bat pwsh.exe .\test.ps1
 
 echo. & echo PHP 8.2.7
-call timecmd.bat php.exe test-php.php
+call timecmd.bat php.exe test.php
 
