@@ -20,9 +20,9 @@ LUAC 5.4.2
 7051.5711976423
 command took 0:0:3.27 (3.27s total)
 
-LuaJIT 2.0.5
+LuaJIT 2.1.1694442928
 7051.5711976423
-command took 0:0:0.79 (0.79s total)
+command took 0:0:0.81 (0.81s total)
 
 C (MSVC 18, VS 2013)
 7051.571198
