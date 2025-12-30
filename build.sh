@@ -12,3 +12,6 @@ strip test-cygwin-gcc.exe
 strip test-cygwin-clang.exe
 strip test-mingw-gcc.exe
 strip test-mingw-clang.exe
+
+rustc -C strip=symbols test.rs
+
