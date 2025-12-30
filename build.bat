@@ -15,3 +15,5 @@ mcs.bat /OUT:test-c-sharp-mono.exe test.cs
 luac.exe -o test.luac test.lua
 
 javac.exe test.java
+
+rustc -C strip=symbols test.rs
